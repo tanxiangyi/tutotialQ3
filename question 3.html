@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DESCRIPTION / ORDER / FIND US</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #FF4F00;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd; /* Added border */
+        }
+
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu a:hover {
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        .invoice-details {
+            margin-bottom: 20px;
+        }
+
+        .invoice-details p {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .total {
+            text-align: right;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        hr {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#description">Description /</a>
+        <a href="#order">Order  /</a>
+        <a href="#findus">Find Us </a>
+    </div>
+
+    <div class="container">
+        <header>
+            <img src="laptop.jpg" width="120" height="100" alt="Product Image">
+            <h3>MICROSOFT LAPTOP</h3>
+            <p>RM 4499.00</p>
+        </header>
+      
+        <hr>
+        <section id="description">
+            <h4>Product Description</h4>
+            <p>A Microsoft laptop is a type of portable computing device designed and marketed by Microsoft Corporation, primarily targeted towards various user demographics, including professionals, students, and everyday consumers. These laptops distinguish themselves from most traditional laptops through several distinctive features and design considerations.</p>
+        </section>
+
+        <section id="order">
+            <h4>Order Now</h4>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required><br><br>
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Order Now">
+            </form>
+        </section>
+
+        <section id="findus">
+            <h4>Find Us</h4>
+            <h5><p><b> ADDRESS:</b> Jln Permatang Pauh, 14000 Permatang Pauh, Pulau Pinang<br> <b>CONTACT NUMBER:</b> 011-58992520<br><b>EMAIL:</b>xiangyi0806@gmail.com</p></h5>
+        </section>
+    </div>
+</body>
+</html>
